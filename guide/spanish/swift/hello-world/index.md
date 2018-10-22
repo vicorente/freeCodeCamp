@@ -1,26 +1,28 @@
 ---
 title: Hello World Swift
-localeTitle: Hola mundo swift
+localeTitle: Hola mundo Swift
 ---
-\## Hola Mundo
+## Hola Mundo
 
-Solo tenemos que agregar el método `print("Hello World")` (de la biblioteca UIKit) a la función `viewDidLoad()` de la clase \`ViewController:
+Solo tenemos que agregar el método `print("Hola Mundo")` (de la biblioteca UIKit) a la función `viewDidLoad()` de la clase `ViewController`:
 
-\`\` \`Swift importar UIKit
+```Swift 
+import UIKit
 
-clase ViewController: UIViewController {
-```
+class ViewController: UIViewController {
+
 override func viewDidLoad() { 
     super.viewDidLoad() 
     // Do any additional setup after loading the view, typically from a nib. 
  
-    print("Hello World") 
+    print("Hola Mundo") 
  
  } 
+
+}
 ```
 
-} \`\` \`
-
-\## Salida: \`\` \`
-
-> Hola Mundo \`\` \`
+## Salida:
+```
+> Hola Mundo 
+```
