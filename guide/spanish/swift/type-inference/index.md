@@ -4,7 +4,7 @@ localeTitle: Inferencia de tipos
 ---
 ## Inferencia de tipos
 
-Swift usa la inferencia de tipos. Entonces, si escribe algún código como el código en el siguiente ejemplo, es bastante obvio qué es cada tipo.
+Swift usa la inferencia de tipos, es decir, es capaz de elegir el tipo de dato correcto según el contexto. De este modo, si escribe algo como el código del siguiente ejemplo es bastante obvio cuál es el tipo de dato.
 
 #### Ejemplo:
 
@@ -19,9 +19,9 @@ Así que podemos limpiar el código para que se vea como el ejemplo a continuaci
 #### Ejemplo:
 
 ```swift
-    let iPhone = “iPhone”       // Inferred as String 
-    let yearIntroduced = 2007   // Inferred as Int 
-    let isAwesome = true        // Inferred as Bool 
+    let iPhone = “iPhone”       // Inferido como String
+    let yearIntroduced = 2007   // Inferido como Int 
+    let isAwesome = true        // Inferido como Bool
 ```
 
 #### Más información:
